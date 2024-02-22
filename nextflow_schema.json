@@ -264,6 +264,12 @@
                     "description": "Validation of parameters in lenient more.",
                     "hidden": true,
                     "help_text": "Allows string values that are parseable as numbers or booleans. For further information see [JSONSchema docs](https://github.com/everit-org/json-schema#lenient-mode)."
+                },
+                "ecr_registry": {
+                    "type": "string",
+                    "description": "Amazon ECR registry to use for container images",
+                    "fa_icon": "fas fa-cog",
+                    "hidden": true
                 }
             }
         }

@@ -1,0 +1,11 @@
+{
+    "manifest" : [
+        "quay/biocontainers/python:3.8.3",
+        "quay/biocontainers/multiqc:1.17--pyhdfd78af_0",
+        "quay/biocontainers/fastqc:0.12.1--hdfd78af_0",
+        "quay/biocontainers/multiqc:1.18--pyhdfd78af_0",
+        "quay/biocontainers/fastp:0.23.4--h5f740d0_0",
+        "quay/biocontainers/spades:3.15.5--h95f258a_1",
+        "ubuntu:20.04"
+    ]
+}
