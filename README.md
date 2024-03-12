@@ -18,7 +18,7 @@ aws stepfunctions start-execution \
     --input file://container_image_manifest.json
 ```
 
-**2. Upload nf-core-awsomicstest workflow** Upload the [nf-core-awsomicstest.zip]() from the release into an S3 bucket accessible by AWS Health OMICS.
+**2. Upload nf-core-awsomicstest workflow** Upload the [nf-core-awsomicstest.zip](https://github.com/wslh-bio/nf-core-awsomicstest/releases) from the release into an S3 bucket accessible by AWS Health OMICS.
 
 **3. Setup the workflow** in AWS using the aws management console, at the parameters step use the [parameter-template.json](https://raw.githubusercontent.com/wslh-bio/nf-core-awsomicstest/main/parameter-template.json) to configure the parameters.
 
